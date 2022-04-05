@@ -1,0 +1,26 @@
+body {
+    font-family: cursive;
+
+}
+#row{
+    font-size: 12px;
+}
+#brand {
+    font-size: 1.5em;
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #row{
+        font-size: 14px;
+    }
+    #brand {
+        font-size: 1.75em;
+    }
+}
+@media (min-width: 768px) {
+    #row{
+        font-size: 16px;
+    }
+    #brand {
+        font-size: 2em;
+    }
+}
